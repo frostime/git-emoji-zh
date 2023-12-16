@@ -1,9 +1,9 @@
 export interface Emoji {
-  readonly emoji: any
-  readonly entity?: any
-  readonly code: any
-  readonly description: any
-  readonly name: any
+    readonly emoji: any
+    readonly entity?: any
+    readonly code: any
+    readonly description: any
+    readonly name: any
 }
 let emojis: Array<Emoji> = [
     {
@@ -146,4 +146,4 @@ let emojis: Array<Emoji> = [
         "name": "标记"
     }
 ];
-export default emojis ;
+export default emojis;
