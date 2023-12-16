@@ -1,9 +1,11 @@
 [![](https://vsmarketplacebadge.apphb.com/version/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/installs/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/downloads/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/rating/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors)
 
-# Git Emoji Commit 中文版
+# Git Emoji Commit 个人定制版
 
-English User can go to here ☞ [git-emoji Commit](https://github.com/maixiaojie/git-emoji)
+在原版的 git-emoji 基础上自定义更改了一些配置，主要是把内置的 emoji 替换为自己习惯、常用的配置。
+
+原始项目见: [maixiaojie/git-emoji-zh](https://github.com/maixiaojie/git-emoji-zh)
 
 ## Features
 
