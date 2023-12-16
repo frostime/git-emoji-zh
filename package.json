@@ -1,7 +1,7 @@
 {
-	"name": "@frostime/git-emoji",
-	"displayName": "Git Emoji Commit - 个人定制版",
-	"description": "提交 git 的时候，加上 emoji 前缀！",
+	"name": "git-emoji-frostime",
+	"displayName": "Git Emoji - frostime 定制版",
+	"description": "基于 git-emoji 插件的个人定制版",
 	"version": "1.2.0",
 	"publisher": "frostime",
 	"author": {
