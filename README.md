@@ -1,13 +1,13 @@
-[![](https://vsmarketplacebadge.apphb.com/version/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/installs/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/downloads/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)  [![](https://vsmarketplacebadge.apphb.com/rating/maixiaojie.git-emoji-zh.svg)](https://marketplace.visualstudio.com/items?itemName=maixiaojie.git-emoji-zh)
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors)
+# Git Emoji 插件个人定制版
 
-# Git Emoji Commit 个人定制版
+## 声明
 
-在原版的 git-emoji 基础上自定义更改了一些配置，主要是把内置的 emoji 替换为自己习惯、常用的配置。
+这是一个二次开发的项目，原始项目见: [maixiaojie/git-emoji-zh](https://github.com/maixiaojie/git-emoji-zh)
 
-原始项目见: [maixiaojie/git-emoji-zh](https://github.com/maixiaojie/git-emoji-zh)
+本项目在在原版的 git-emoji 基础上自定义更改了一些配置，把内置的 emoji 替换为自己习惯、常用的配置。
 
-## Features
+
+## 基本功能简介
 
 一个简单好用的 vscode 插件。
 
@@ -39,44 +39,3 @@ mac 用户: command + shift + p
 输入 `label switching`
 
 即可切换。
-
-
-## download 
-
-在 vscode 扩展中搜索 `git-emoji-zh` 即可找到该插件。
-
-## issues
-
-使用中遇到问题可以在这里提问。
-
-[https://github.com/maixiaojie/git-emoji-zh/issues](https://github.com/maixiaojie/git-emoji-zh/issues)
-
-## sources
-
-插件源码，沟通交流在这里。
-
-[https://github.com/maixiaojie/git-emoji-zh](https://github.com/maixiaojie/git-emoji-zh)
-
-**Enjoy!**
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table>
-  <tr>
-    <td align="center"><a href="https://blog.mcust.cn/blogs/maixiaojie"><img src="https://avatars2.githubusercontent.com/u/11681287?v=4" width="100px;" alt="麦晓杰 lavna"/><br /><sub><b>麦晓杰 lavna</b></sub></a><br /><a href="https://github.com/maixiaojie/git-emoji-zh/commits?author=maixiaojie" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.shenzilong.cn"><img src="https://avatars1.githubusercontent.com/u/28727933?v=4" width="100px;" alt="崮生"/><br /><sub><b>崮生</b></sub></a><br /><a href="https://github.com/maixiaojie/git-emoji-zh/commits?author=2234839" title="Code">💻</a></td>
-    <td align="center"><a href="http://blog.dengxf.cn"><img src="https://avatars3.githubusercontent.com/u/20966346?v=4" width="100px;" alt="Dennis"/><br /><sub><b>Dennis</b></sub></a><br /><a href="https://github.com/maixiaojie/git-emoji-zh/commits?author=Dennis8274" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/kurryzhang"><img src="https://avatars0.githubusercontent.com/u/30166664?v=4" width="100px;" alt="kurryzhang"/><br /><sub><b>kurryzhang</b></sub></a><br /><a href="#design-kurryzhang" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/Ord1nAryJ"><img src="https://avatars2.githubusercontent.com/u/35832921?v=4" width="100px;" alt="Ord1nAryJ"/><br /><sub><b>Ord1nAryJ</b></sub></a><br /><a href="#example-Ord1nAryJ" title="Examples">💡</a></td>
-    <td align="center"><a href="https://github.com/BlackblackZhang"><img src="https://avatars0.githubusercontent.com/u/21030035?v=4" width="100px;" alt="blackZhang"/><br /><sub><b>blackZhang</b></sub></a><br /><a href="#content-BlackblackZhang" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/wenyujie12"><img src="https://avatars1.githubusercontent.com/u/57449610?v=4" width="100px;" alt="wenyujie12"/><br /><sub><b>wenyujie12</b></sub></a><br /><a href="https://github.com/maixiaojie/git-emoji-zh/commits?author=wenyujie12" title="Code">💻</a></td>
-  </tr>
-</table>
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
