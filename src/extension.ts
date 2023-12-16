@@ -23,8 +23,10 @@ export function activate(context: vscode.ExtensionContext) {
                 console.log(uri)
                 vscode.commands.executeCommand('workbench.view.scm')
                 if (uri) {
+                    const targetPath = uri.rootUri?.path;
                     let selectedRepository = git.repositories.find((repository) => {
-                        return repository.rootUri.path === uri._rootUri.path
+                        // return repository.rootUri.path === uri._rootUri.path
+                        return repository.rootUri.path === targetPath;
                     })
                     if (selectedRepository) {
                         prefixCommit(selectedRepository, selected.emoji)
