@@ -61,6 +61,18 @@ let emojis: Array<Emoji> = [
         "name": "重构"
     },
     {
+        "emoji": "✅",
+        "code": ':white_check_mark:',
+        "description": "增加测试😋",
+        "name": "测试"
+    },
+    {
+        "emoji": "🚧",
+        "code": ':construction:',
+        "description": "缓存进行中的工作🤒",
+        "name": "进行中"
+    },
+    {
         "emoji": "🔥",
         "code": ":fire:",
         "description": "删除文件😔",
