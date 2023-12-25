@@ -2,7 +2,7 @@
 	"name": "git-emoji-frostime",
 	"displayName": "Git Emoji - frostime 定制版",
 	"description": "基于 git-emoji 插件的个人定制版",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"publisher": "frostime",
 	"author": {
 		"name": "maixiaojie"
