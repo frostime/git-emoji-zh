@@ -1,7 +1,7 @@
 import * as vscode from 'vscode'
-import { display_method } from './api/display-method'
-import { GitExtension, Repository } from './api/git'
-import emojis from './api/git_emoji_zh'
+import { use_emoji } from './libs/use-emoji'
+import { GitExtension, Repository } from './libs/git'
+import emojis from './libs/git_emoji_zh'
 
 export function activate(context: vscode.ExtensionContext) {
 
@@ -13,14 +13,12 @@ export function activate(context: vscode.ExtensionContext) {
         }
 
         // init pick items use emoji 展现方式
-        // let items = emojis.map(use_emoji)
-        const method_key = context.globalState.get('display_method', 'default')
-        let items = emojis.map(display_method[method_key])
+        let items = emojis.map(use_emoji)
 
         // 显示选项列表，提示用户选择
         vscode.window.showQuickPick(items).then(function (selected) {
             if (selected) {
-                console.log(uri)
+                // console.log(uri);
                 vscode.commands.executeCommand('workbench.view.scm')
                 if (uri) {
                     const targetPath = uri.rootUri?.path;
@@ -29,24 +27,14 @@ export function activate(context: vscode.ExtensionContext) {
                         return repository.rootUri.path === targetPath;
                     })
                     if (selectedRepository) {
-                        prefixCommit(selectedRepository, selected.emoji)
+                        prefixCommit(selectedRepository, selected.label)
                     }
                 } else {
                     for (let repo of git.repositories) {
-                        prefixCommit(repo, selected.emoji)
+                        prefixCommit(repo, selected.label)
                     }
                 }
             }
-        })
-    })
-
-    vscode.commands.registerCommand('extension.switching', (uri?) => {
-        const items = []
-        for (const key in display_method) {
-            items.push(key)
-        }
-        vscode.window.showQuickPick(items).then((res) => {
-            context.globalState.update('display_method', res)
         })
     })
 

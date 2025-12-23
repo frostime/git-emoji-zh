@@ -18,24 +18,3 @@
 提交后的效果如下图：
 
 ![](images/feature_main_rs.png)
-
-### setting
-
-插件提供了label 和 emoji 两种模式。
-
-| 模式        | is_default  |
-| --------   | :----: |
-| label           |   false    |
-| emoji            |   true   |
-
-允许用户自己切换label和emoji两种模式。
-
-切换方法：
-
-win 用户: ctrl + shfit + p
-
-mac 用户: command + shift + p
-
-输入 `label switching`
-
-即可切换。
